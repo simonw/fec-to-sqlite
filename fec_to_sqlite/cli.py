@@ -26,3 +26,4 @@ def filings(db_path, filing_ids):
         fec_generator, total_bytes = start_iter_http(filing_id)
         with tqdm.tqdm(total=total_bytes, desc=str(filing_id)) as pbar:
             save_filing(fec_generator(callback=pbar.update), db)
+    db.index_foreign_keys()
