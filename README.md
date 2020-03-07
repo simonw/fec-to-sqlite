@@ -14,6 +14,6 @@ Create a SQLite database using FEC campaign contributions data.
 
     $ fec-to-sqlite filings filings.db 1146148
 
-This fetches the filing with ID `1146148` and stores it in tables in a SQLite databsae called `filings.db`. It will create any tables it needs.
+This fetches the filing with ID `1146148` and stores it in tables in a SQLite database called `filings.db`. It will create any tables it needs.
 
-You can pass more than one filing ID.
+You can pass more than one filing ID, separated by spaces.
