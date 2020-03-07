@@ -6,9 +6,9 @@ import requests
 
 def save_filing(filing_generator, db):
     filing = {}
+    filing_id = None
     for i, fecitem in enumerate(filing_generator):
         # First gather the header and summary
-        filing_id = None
         if i == 0:
             assert fecitem.data_type == "header"
             filing.update(

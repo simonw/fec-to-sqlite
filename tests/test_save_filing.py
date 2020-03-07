@@ -56,7 +56,7 @@ def test_save_filing(tmpdir):
     ] == list(db["filings"].rows)
     assert [
         {
-            "id": "a8d49cb9d25a16ba738744b6e2e85f49b3ecca75",
+            "id": "6659e05d3514e6e325140d610eff0c91bb11d4b5",
             "form_type": "F57",
             "filer_committee_id_number": "C90004185",
             "transaction_id_number": "VN7C2A4VPA0",
@@ -90,10 +90,10 @@ def test_save_filing(tmpdir):
             "candidate_office": "S",
             "candidate_state": "NH",
             "candidate_district": "00\n",
-            "filing_id": None,
+            "filing_id": "934ddbec213c17d6290959b607f3480a3b5039c7",
         },
         {
-            "id": "c65fe0adf3e0d4417082bfb0287c87668cf135ad",
+            "id": "b8a83bcf4383a1b17b7fbba599d495d5348063a9",
             "form_type": "F57",
             "filer_committee_id_number": "C90004185",
             "transaction_id_number": "VN7C2A4VPB7",
@@ -127,10 +127,10 @@ def test_save_filing(tmpdir):
             "candidate_office": "S",
             "candidate_state": "NV",
             "candidate_district": "00\n",
-            "filing_id": None,
+            "filing_id": "934ddbec213c17d6290959b607f3480a3b5039c7",
         },
         {
-            "id": "6f2b319781ba76e0355a0a8978d85028ad88183c",
+            "id": "0626839762b80945a76eae8a663189cba26f452d",
             "form_type": "F57",
             "filer_committee_id_number": "C90004185",
             "transaction_id_number": "VN7C2A4VPC5",
@@ -164,10 +164,10 @@ def test_save_filing(tmpdir):
             "candidate_office": "S",
             "candidate_state": "PA",
             "candidate_district": "00\n",
-            "filing_id": None,
+            "filing_id": "934ddbec213c17d6290959b607f3480a3b5039c7",
         },
         {
-            "id": "ab3d86d3af4a5b41faac1314925ca031ecd972a2",
+            "id": "ccc70aa47480385031db0b252a7cf8bc2fd380d8",
             "form_type": "F57",
             "filer_committee_id_number": "C90004185",
             "transaction_id_number": "VN7C2A4VPD3",
@@ -201,10 +201,10 @@ def test_save_filing(tmpdir):
             "candidate_office": "P",
             "candidate_state": "00",
             "candidate_district": "00\n",
-            "filing_id": None,
+            "filing_id": "934ddbec213c17d6290959b607f3480a3b5039c7",
         },
         {
-            "id": "06c52b3a808b3483011fcd51cffb1a0af42153fe",
+            "id": "18784acd68bef3ab5c3ace49c3085d1d22538b01",
             "form_type": "F57",
             "filer_committee_id_number": "C90004185",
             "transaction_id_number": "VN7C2A4Y2X9",
@@ -238,6 +238,6 @@ def test_save_filing(tmpdir):
             "candidate_office": "S",
             "candidate_state": "NH",
             "candidate_district": "00\n",
-            "filing_id": None,
+            "filing_id": "934ddbec213c17d6290959b607f3480a3b5039c7",
         },
     ] == list(db["itemizations"].rows)
