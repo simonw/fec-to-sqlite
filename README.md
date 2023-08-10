@@ -6,7 +6,7 @@
 
 Create a SQLite database using FEC campaign contributions data.
 
-This tool builds on [fecfile](https://github.com/esonderegger/) by Evan Sonderegger.
+This tool builds on [fecfile](https://github.com/esonderegger/fecfile) by Evan Sonderegger.
 
 ## How to install
 
